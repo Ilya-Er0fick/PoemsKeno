@@ -7,7 +7,9 @@ The original French version of the book was designed by Robert Massin. Two full 
 In 1997, a French court decision outlawed the publication of the original poem on the Internet, citing the Queneau estate and Gallimard publishing house's exclusive moral right.
 
 **About my project:**
+
 My code was realise servel functions:
+
  1. Chose language (Russian, English, France)
  2. Making poem with random number generator on C++
  3. Create new txt file, where wrote text poem.
