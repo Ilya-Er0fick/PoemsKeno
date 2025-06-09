@@ -10,7 +10,6 @@ In 1997, a French court decision outlawed the publication of the original poem o
 
 My code was realise servel functions:
 
- 1. Chose language (Russian, English, France)
- 2. Making poem with random number generator on C++
- 3. Create new txt file, where wrote text poem.
+ 1. Making poem with random number generator on C++
+ 2. Create new txt file, where wrote text poem.
 
