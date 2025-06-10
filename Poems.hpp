@@ -8,8 +8,8 @@
 
 namespace Poems{
     struct numString{
-        //int i;
-        //int a;
+        int i;
+        int a;
     };
 
     struct TextNewPoem{
