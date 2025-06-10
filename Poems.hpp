@@ -7,6 +7,7 @@
 namespace Poems{
     struct numString{
         int i;
+        int a;
     };
 }
 
