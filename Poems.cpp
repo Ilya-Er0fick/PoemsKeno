@@ -7,18 +7,14 @@
 
 
 int main(){
+    srand(time(NULL));
     //loop for every line
     for(int i = 1; i < 15; i++){
-
-        int const SIZE = 11;
-        int num;
-
-        srand(time(NULL));
-
         //realise random number needed text
-        for(int q = 0; q < SIZE; q++){
-            num = rand()%10;
-        }
+        int first = 1;
+        int last = 10;
+        int num = rand() % (last - first + 1) + first;
+
 
 
         std::string filename = std::to_string(num) + ".txt";
@@ -30,8 +26,6 @@ int main(){
         } else{
             std::cout << filename << std::endl;
         }
-
-
 
     }
 }
