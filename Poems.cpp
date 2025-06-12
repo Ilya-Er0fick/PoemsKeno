@@ -15,8 +15,7 @@ int main(){
         int last = 10;
         int num = rand() % (last - first + 1) + first;
 
-
-
+        //make filename for open needed txt files
         std::string filename = std::to_string(num) + ".txt";
         std::ifstream file(filename);
 
