@@ -35,7 +35,6 @@ int main(){
 
         const unsigned max = -1;
 
-        static NoRepetition = filename;
         while(file && --QuantityVerses){
             file.ignore(max, '\n');
         }
