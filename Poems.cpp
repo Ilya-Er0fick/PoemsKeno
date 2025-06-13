@@ -40,7 +40,7 @@ int main(){
         }
         std::getline(file, verse);
 
-        std::cout << verse << "  " << filename << std::endl;
+        std::cout << verse << std::endl;
 
     }
 }
