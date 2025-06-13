@@ -11,26 +11,37 @@ int main(){
     //loop for every line
     for(int i = 1; i < 15; i++){
         //realise random number needed text
-        int first = 1;
-        int last = 10;
-        int num = rand() % (last - first + 1) + first;
+        int firstText = 1;
+        int lastText = 10;
+        int numText = rand() % (lastText - firstText + 1) + firstText;
 
         //make filename for open needed txt files
-        std::string filename = std::to_string(num) + ".txt";
+        std::string filename = std::to_string(numText) + ".txt";
         std::ifstream file(filename);
 
         if (!file.is_open()){
             std::cerr << "Error open file: " << filename << std::endl;
             break;//because withou something \
             file we didn't have normal text poem
-        } else{
-            std::cout << filename << std::endl;
         }
+
         //make new paraments for text
-        //std::vector<wchar_t> verse ,save text verse \
-        from TextOldPoem for making TextNewPoem
-        std::vector<wchar_t> verse;
+        //std::string verse ,save text verse from TextOldPoem for making TextNewPoem
+        std::string verse;
         wchar_t TextOldPoem[60][14];
         wchar_t TextNewPoem[60][14];
+
+        int QuantityVerses = i;
+
+        const unsigned max = -1;
+
+        static NoRepetition = filename;
+        while(file && --QuantityVerses){
+            file.ignore(max, '\n');
+        }
+        std::getline(file, verse);
+
+        std::cout << verse << "  " << filename << std::endl;
+
     }
 }
