@@ -21,10 +21,16 @@ int main(){
 
         if (!file.is_open()){
             std::cerr << "Error open file: " << filename << std::endl;
-            break; //because withou something file we didn't have normal text poem
+            break;//because withou something \
+            file we didn't have normal text poem
         } else{
             std::cout << filename << std::endl;
         }
-
+        //make new paraments for text
+        //std::vector<wchar_t> verse ,save text verse \
+        from TextOldPoem for making TextNewPoem
+        std::vector<wchar_t> verse;
+        wchar_t TextOldPoem[60][14];
+        wchar_t TextNewPoem[60][14];
     }
 }
